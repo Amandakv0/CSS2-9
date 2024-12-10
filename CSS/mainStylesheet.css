@@ -1,8 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 64px;
+    padding-bottom: 154px;/*eseti rame sheidzleba?*/
 }
 #mainBigFrame{
+    height: 2000px;/*ese xo sheidzleba?*/
+    padding-top: 95px;
     background-color: #E8EEFF;
     margin: 0 auto;
     max-width: 1412px;
@@ -53,6 +60,7 @@
     height: 200px;
     background-color: #FFF;
     text-align: center;
+    padding: 16px;
 }
 #inboxesICon, #deliverIcon,
 #manageIcon{
@@ -73,7 +81,7 @@
     font-size: 16px;
 }
 #purpleFraim{
-    height: 300px;
+    height: 380px;
     width: 1200px;
     background-color: #53389E;
     margin: 0 auto;
@@ -102,7 +110,7 @@
     margin-top: 48px;
 }
 #learnMoreBUttonFrame{
-    width: 86px;
+    width: 120px;
     border-radius: var(--radius-md, 8px);
     border: 1px solid #D5D7DA;
     background-color: #FFF;
@@ -120,23 +128,23 @@
 }
 #getStratedtButtonFrame{
     display: inline-block;
-    width: 84px;
+    width: 108px;
     padding: 12px 18px;
     border-radius: var(--radius-md, 8px);
     border: 2px solid #FFF;
     background: #7F56D9;
 }
 #lastImgFrame{
-    width: 613px;
+    width: 614px;
     text-align: right;
-    height: 300px;
+    height: 380px;
     border-radius: 8px;
     overflow: hidden;
     display: inline-block;
 }
-#
 #getStarted{
     border: none;
     background-color: transparent;
     color: #FFF;
+    font-weight: 600;
 }
