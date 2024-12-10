@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainBigFrame{
+    background-color: #E8EEFF;
+    margin: 0 auto;
+    max-width: 1412px;
+    width: 100%;
+    padding: 96px;
+}
+#headerFrame{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+#anlytics{
+    color: #05F;
+}
+#smarter{
+    color: #6941C6;
+    text-decoration-line: underline;
+}
+#header{
+    font-size: 72px;
+    font-weight: 600;
+    color: #181d27;
+    padding-bottom: 24px;
+}
+#headerParag{
+    padding-bottom: 72px;
+    color: #535862;
+    font-size: 20px;
+}
+#firstDiagrammFrame{
+    text-align: center;
+    width: 1400px;
+    margin: 0 auto;
+}
+#divContainer {
+    width: 100%;
+    max-width: 1435px;
+    margin-top: 60px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+#inboxesFrame, #deliverFrame,
+#manageFrame{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 412px;
+    margin-right: 32px;
+    height: 200px;
+    background-color: #FFF;
+    text-align: center;
+}
+#inboxesICon, #deliverIcon,
+#manageIcon{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+#shareInboxes, #deliverHeader,
+#reports{
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #181d27;
+}
+#shareInboxesParag, #deliverParag,
+#reportsParag{
+    color: #535862;
+    font-size: 16px;
+}
+#purpleFraim{
+    height: 300px;
+    width: 1200px;
+    background-color: #53389E;
+    margin: 0 auto;
+    border-radius: var(--radius-4xl, 24px);
+}
+#purpleFraimInnerFrame{
+    width: 600px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 48px;
+    padding: 64px;
+}
+#shot{
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFF;
+    padding-bottom: 20px;
+}
+#shotParag{
+    font-size: 20px;
+    color: #E9D7FE;
+}
+#buttonFrame{
+    margin-top: 48px;
+}
+#learnMoreBUttonFrame{
+    width: 86px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+    background-color: #FFF;
+    padding: 12px 18px;
+    margin-right: 12px;
+    display: inline-block;
+}
+#learnMOre{
+    border: none;
+    background-color: transparent;
+    color: #414651;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+#getStratedtButtonFrame{
+    display: inline-block;
+    width: 86px;
+    padding: 12px 18px;
+    border-radius: var(--radius-md, 8px);
+    border: 2px solid #FFF;
+    background: #7F56D9;
+}
